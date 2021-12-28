@@ -6,7 +6,7 @@ body {
   color: #2F3E46;
 }
 
-a, li {
+a, li, h5, p {
   font-family: "Proza Libre"
 }
 
@@ -26,4 +26,16 @@ h4 {
 
 .nav-link:hover, .nav-link:focus {
   color: #707070;
+}
+
+.acting-carousel > .carousel-item > img,  .about-me-carousel > .carousel-item > img {
+  object-fit: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.directing-carousel > .carousel-item > img{
+  object-fit: cover;
+  width: 100%;
+  height: 45vh;
 }
