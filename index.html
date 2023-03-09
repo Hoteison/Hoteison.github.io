@@ -8,75 +8,100 @@
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-    <title>Alex Lau - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Proza+Libre:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <title>Alex Lau</title>
   </head>
   <body>
-    <div class="container-flex mt-2 mb-4 w-100 mx-auto">
-      <div class="row">
-        <header class="d-flex flex-wrap justify-content-center py-1 my-1 border-bottom">
-          <ul class="nav navbar-dark">
-            <li class="nav-item"><a class="text-dark px-5" style="text-decoration:none" href="AlexLau-Resume-2022.pdf" download>Resume</a></li>
-            <li class="nav-item"><a class="text-dark px-5" style="text-decoration:none" href="https://www.linkedin.com/in/alex-lau-894bab206/" download>LinkedIn</a></li>
-            <li class="nav-item"><a class="text-dark px-5" style="text-decoration:none" href="https://github.com/alexlauluo" download>Github</a></li>
-          </ul>
-        </header>
-      </div>
+    <div class="container-flex">
+      <div class="row pb-3 mx-0">
+        <div class="col p-0">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand p-0" href="#"><h1>Alex Lau</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav navbar-nav-scroll d-flex align-items-center text-center" style="--bs-scroll-height: 350px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="AlexLau-Resume-2022.pdf"><h4>Resume</h4></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/alex-lau-894bab206/"><h4>LinkedIn</h4></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/alexlauluo"><h4>GitHub</h4></a>
+                  </li>
 
-      <div class="row">
-        <header class="d-flex flex-wrap justify-content-center py-2 my-0 border-bottom">
-          <ul class="nav navbar-dark">
-            <li class="nav-item"><a class="text-dark px-2 fw-bolder fst-italic" style="text-decoration:none">PROJECTS:</li>
-            <li class="nav-item"><a class="text-dark px-4" style="text-decoration:none" href="https://njew25.itch.io/furniture-dating">Summer Kagu Romance</a></li>
-            <li class="nav-item"><a class="text-dark px-4" style="text-decoration:none" href="https://daidiimon.itch.io/hungry-hungry-theo" download>Hungry Hungry Theo!</a></li>
-            <li class="nav-item"><a class="text-dark px-4" style="text-decoration:none" href="https://docs.google.com/document/d/1jM8wjAsn9A3c-gKC80yg1M6V7HpSJcJZjaedm6IRVT4/edit">Papyrus</a></li>
-          </ul>
-        </header>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://njew25.itch.io/furniture-dating"><h4>Summer Kagu Romance</h4></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://daidiimon.itch.io/hungry-hungry-theo"><h4>Hungry Hungry Theo</h4></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://docs.google.com/document/d/1jM8wjAsn9A3c-gKC80yg1M6V7HpSJcJZjaedm6IRVT4/edit"><h4>Papyrus</h4></a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
-
-    <div class="container-flex w-75 mx-auto">
-      <div class="row align-items-center pt-0">
-        <div class="col-sm-6">
-          <h1>Alex Lau</h1>
-          <p>Computer Science Student, Philosophy Double Major</p>
-        </div>
-
-        <div class="col-sm-6 align-items-center">
-          <img src="profile.jpeg" class="rounded-circle mx-auto d-block profile m-1">
-        </div>
-      </div>
-
-      <div class="row pt-3">
-        <p>Hi! I'm Alex, a 4th year student at UC Berkeley. Some fun facts:
-          I'm really into analytical philosophy and tea (puerh is my favorite),
-          so let me know if you have suggestions! If your looking at my page, I'll
-          assume it's because I'm looking for work. Take a look at my resume above
-          to get a better idea of what I've done in the past.
-        </p>
-
-          <p>Be sure to look at my projects on my website's toolbar!</p>
-      </div>
-    </div>
-
-
-
-<!--
-    <div class="container my-5 w-50 mx-auto">
-      <h2 class="my-5">Projects</h2>
+    <div class="container-flex my-4 mx-4">
       <div class="row">
-        <div class="col">
-          <a href="https://njew25.itch.io/furniture-dating">Summer Kagu Romance</a>
+        <div class="col text-center mb-2"><h1>UC Berkeley CS/Philosophy Student</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <!-- <div id="head-shots" class="carousel slide mb-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#head-shots" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#head-shots" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#head-shots" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner about-me-carousel">
+              <div class="carousel-item active">
+                <img src="img-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img-5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#head-shots" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#head-shots" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
+          <img src="img-1.png" class="rounded-circle w-100 pt-3 px-4">
+
         </div>
-        <div class="col">
-          <a href="https://daidiimon.itch.io/hungry-hungry-theo">Hungry Hungry Theo</a>
-        </div>
-        <div class="col">
-          <a href="https://bit.ly/3k5raok">Papyrus</a>
+        <div class="col-sm-8 pt-4">
+            <h5>Hi! I’m Alex Lau, a Bay Area/California based software engineer and student, and will be graduating in
+              the spring of 2024 (middle of May-ish) as a computer science and philosophy double major.</h5><br/>
+
+            <h5>Some quick fun facts: I'm really into reading philosophy, especially of the analytical kind, and love
+            drinking tea (my favorite right now is puerh and black). I spend my time traveling, gaming, and watching
+            movies/tv-shows, so let me know if you have suggestions!</h5><br/>
+
+            <h5>I'm looking out for the next opportunity so go ahead and shoot me an email (alexlauluo@berkeley.edu)
+            if you think I'd be a great fit on your team.</h5><br/>
+
+            <h5>Along with relevant links on the navbar above, I've also included links to some of my personal projects
+            and video-games I've created. Take a look at my resume and some of my games out!</h5>
         </div>
       </div>
-    </div> -->
 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
